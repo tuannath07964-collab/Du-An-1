@@ -1,39 +1,6 @@
-﻿# AnYen Reservation
-
-Dự án web concept đặt bàn nhà hàng AnYen với hiệu ứng 3D, animation và trải nghiệm immersive.
-
-## Cấu trúc dự án
-
-`
-AnYen-Reservation/
-├── index.html              # Entry point - file chạy chính
-├── src/
-│   ├── css/                # Stylesheet
-│   ├── js/                 # JavaScript modules
-│   └── components/         # UI components
-├── assets/
-│   ├── images/             # Hình ảnh, render
-│   ├── audio/              # Âm thanh
-│   ├── models/             # 3D models (.glb) đang dùng
-│   ├── fonts/              # Font chữ
-│   └── textures/           # Texture maps
-├── 3d-source/
-│   ├── blender/            # File nguồn Blender (.blend)
-│   └── scripts/            # Script tạo model (Python)
-├── tools/                  # Công cụ hỗ trợ
-└── archive/
-    ├── html-versions/      # Các phiên bản HTML cũ
-    └── old-models/         # 3D models cũ
-`
-"@ | Set-Content "D:\AnYen-Reservation-Concept - Sao chép\README.md" -Encoding UTF8
-
-@"
-# IDE
+﻿# IDE
 .idea/
 .vscode/
-
-# Blender backup
-*.blend1
 
 # Dependencies
 node_modules/
